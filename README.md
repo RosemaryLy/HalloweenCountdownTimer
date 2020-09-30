@@ -1,3 +1,13 @@
+# Simple Countdown Timer for Halloween
+
+A simple React countdown timer for spooky season :jack_o_lantern: :ghost: 
+
+
+
+## Made with 
+
+HTML, CSS and javascript 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
