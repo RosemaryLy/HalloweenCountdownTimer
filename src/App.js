@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <section className="timer-container">
+    <section className="timer">
+    <div>
+    <h2>Halloween Timer</h2>
+    <p> How many days until Halloween? </p>
+    
     </div>
-  );
-}
+    <div>
+    <section>
+    <p> 30</p>
+    <p><small> Days </small></p>
+    </section>
+    <span> : </span>
+    
+     <section>
+    <p> 30</p>
+    <p><small> Hours </small></p>
+    </section>
+    <span> : </span>
+    
+     <section>
+    <p> 30</p>
+    <p><small> Minutes </small></p>
+    </section>
+    <span> : </span>
+    
+     <section>
+    <p> 30</p>
+    <p><small> seconds </small></p>
+    </section>
+    
+    
+    </div>
+    </section>
+    </section>
+    ):
+};
 
 export default App;
