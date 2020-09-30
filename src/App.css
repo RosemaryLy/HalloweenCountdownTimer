@@ -1,5 +1,5 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
   margin:0;
   padding:0;
 }
@@ -9,19 +9,20 @@ body {
 }
 
 .timer-container{
-background-position: center;
-background-size: cover;
+  background-image:url(beth-teutschmann-ed5KySP1tfQ-unsplash.jpg) ;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
   width: 100vw;
-  height: 100vh
+  height: 100vh;
 }
 
 .timer{
   background-color: rgba(0,0,0,0.5);
-display: flex; 
-  flex: column;
-  alighn-items: center;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding-bottom: 7em;
   padding-top: 2em;
@@ -36,4 +37,18 @@ display: flex;
 h2{
   font-weight: 600;
   margin-bottom: 0.25em;
+}
+
+.timer div:first-child p {
+  columns: #f8f8f8 ;
+}
+
+.timer div:last-child {
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  text-align: center;
+}
+
+section p:first-child, .timer div:last-child span {
+  font-size: 3em;
 }
