@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
- ['https://rosemaryly.github.io/HalloweenCountdownTimer/']
+ 'https://rosemaryly.github.io/HalloweenCountdownTimer/'
 
 ## Available Scripts
 
