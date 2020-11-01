@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HalloweenCountdownTimer/precache-manifest.bef1890a04166bcb046a1e2da590ca25.js"
+  "/HalloweenCountdownTimer/precache-manifest.6724ec4391b070f1831f358e806fdc67.js"
 );
 
 self.addEventListener('message', (event) => {
