@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f45476141c875383a728c6739574e3b9",
+    "revision": "b1d364255a492966e252a99d70b28e32",
     "url": "/HalloweenCountdownTimer/index.html"
   },
   {
-    "revision": "c801ea2800349d125173",
+    "revision": "440bfb4f8ec509129c49",
     "url": "/HalloweenCountdownTimer/static/css/main.65a8f13f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HalloweenCountdownTimer/static/js/2.bea52edd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c801ea2800349d125173",
-    "url": "/HalloweenCountdownTimer/static/js/main.7b95b792.chunk.js"
+    "revision": "440bfb4f8ec509129c49",
+    "url": "/HalloweenCountdownTimer/static/js/main.ae186eec.chunk.js"
   },
   {
     "revision": "4d96932804081e7cb0e2",
