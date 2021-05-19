@@ -9,8 +9,9 @@ const App = () => {
 
   let interval = useRef();
 
+  const currentYear = new Date().getFullYear();
   const startTimer = () => {
-    const countdownDate = new Date("October 31, 2021 00:00:00").getTime();
+    const countdownDate = new Date(`October 31 ${currentYear} 00:00:00`).getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
